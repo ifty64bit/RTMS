@@ -1,6 +1,6 @@
 <?php
 session_start();
 if(!isset($_SESSION['user'])) {
-    header("Location: http://localhost/ERP");
+    header("Location: http://localhost/RTMS/");
 }
 ?>
